@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: darkolivegreen;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 10px 34px;
+    text-align: center;
+    color: white;
+}
+
+/* User Section */
+#user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+#user-btn{
+    text-align: center;
+    height: 40px;
+    width: max-content;
+    border: 2px solid red;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 900px;
+    border-radius: 10px;
+}
+#user-btn, .show-btn:hover{
+    background-color: chocolate;
+    border: 2px solid rgb(83, 25, 229);
+    /* transform: scale(1.1); */
+}
+
+/* Show User section */
+table, td, th {
+    border: 2px solid black;
+    padding: 5px;
+}
+/* 
+th{
+    padding: 5px;
+} */
+
+.show-btn{
+    padding: 5px;
+    border: 2px solid red;
+    font-size: 1.2rem;
+    background-color: rgb(95, 65, 65);
+    border-radius: 10px;
+}
+
+/* Edituser section */
+#edit-form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+#name{
+    margin: 10px 5px;
+    border-radius: 7px;
+}
+#name:hover{
+    background-color: darkgray;
+    border: 2px solid rgb(182, 182, 85);
+}
+.enter-text{
+    height: 30px;
+    width: 15%;
+    margin: 10px 5px;
+    border-radius: 7px;
+    border-top: none;
+    border-left: none;
+}
+
+.enter-text:hover{
+    border: 2px solid rgb(144, 144, 80);
+}
+.edit{
+    height: 37px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(77, 107, 107);
+}
+
+.edit:hover{
+    background-color: white;
+}
+
+/* Add new user section */
+#add-user{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
